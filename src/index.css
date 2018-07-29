@@ -1,0 +1,41 @@
+html, body, #root {
+	height:100%;
+	margin: 0;
+	width: 100%;
+}
+
+.carousel {
+	height: 30%;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.imageList {
+	height: 30%;
+	width: 80%;
+	top: 38%;
+	position: fixed;
+	display: flex;
+}
+
+.imageSlide {
+	margin: 2px; 
+	height: 100%;
+	width: 100%;	
+}
+
+.slideButton {
+	color: #14B6D4;
+	cursor: pointer;
+	font-size: 2rem;
+	position: fixed;
+	top: 50%;
+}
+
+.slideButton.right {
+	right: 1rem;
+}
+
+.slideButton.left {
+	left: 1rem;
+}
